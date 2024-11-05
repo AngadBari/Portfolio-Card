@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    font-family: "Ubuntu", sans-serif;
+}
+.profile-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow:  0 5px 10px rgb(0, 0, 0,0.1);
+    position: relative;
+}
+.profile-img::before{
+    content: "";
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    top:0;
+    left: 0;
+    border-radius: 25px 25px 0 0;
+    background-color: #4070f4;
+}
+
+img{
+    border-radius: 50%;  
+    background-color: blue;
+    padding: 3px;  
+}
+
+ .imge{
+    position: relative;
+    height: 150px;
+    width:150px;
+
+ }
+ .imge .angad-img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border: 3px solid white;
+
+ }
+ .profile-img .profile-data{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+ }
+ .profile-data .name{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .profile-data .job{
+    font-size: 15px;
+    font-weight: 400;
+ }
+ .profile-img .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+ }
+ .media-buttons .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+     text-decoration: none;
+ }
+ .buttons{
+    margin: 15px;
+    
+    
+
+ }
+ .buttons .sub{
+     cursor: pointer;
+    height: 35px;
+    width: 135px;
+    color: #fff;
+    background-color: #4070f4;
+    border: none;
+    border-radius: 10px;
+
+ }
+ .buttons .mas{
+cursor: pointer;
+    height: 35px;
+    width: 135px;
+    color: #fff;
+    background-color: #4070f4;
+    border: none;
+    border-radius: 10px;
+
+ }
+ .buttons button:hover{
+    background-color: #0e4bf1;
+ }
+ .logo
+ {
+   height: 40px;
+   width:40px
+ }
